@@ -22,6 +22,3 @@ class ContactsController < ApplicationController
   end
 
 end
-
-puts "SENDGRID_USERNAME: #{ENV['SENDGRID_USERNAME']}"
-puts "SENDGRID_PASSWORD: #{ENV['SENDGRID_PASSWORD']}"

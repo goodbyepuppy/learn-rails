@@ -25,3 +25,6 @@
 
 # Ignore all yaml files
 *.yml
+
+# Ignore application configuration
+/config/application.yml
