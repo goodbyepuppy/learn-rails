@@ -83,7 +83,7 @@ Rails.application.configure do
     authentication: "plain",
     enable_starttls_auto: true,
     user_name: ENV["email_provider_username"],
-    password: ENV["password"]
+    password: ENV["email_provider_password"]
   }
 
   # ActionMailer Config
