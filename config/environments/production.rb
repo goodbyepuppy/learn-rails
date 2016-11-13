@@ -82,12 +82,12 @@ Rails.application.configure do
     domain: "gmail.com",
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: ENV["SENDGRID_USERNAME"],
-    password: ENV["SENGRID_PASSWORD"]
+    user_name: ENV["email_provider_username"],
+    password: ENV["password"]
   }
 
   # ActionMailer Config
-  config.action_mailer.default_url_options = { :host => ENV["DOMAIN_NAME"] }
+  config.action_mailer.default_url_options = { :host => "https://learned-rails-example-app.herokuapp.com/" }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = false
