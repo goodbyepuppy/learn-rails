@@ -1,0 +1,21 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Rey Tanada -- @rtanada_
+
+# PAST TEAM MEMBERS:
+
+    None yet lol.
+
+# THANKS
+
+    Daniel Kehoe -- @rails_apps
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    HTML5 Boilerplate, Normalize.css, Rails
+
+    Source: https://github.com/h5bp/html5boilerplate.com
